@@ -1,10 +1,16 @@
 # SoulBTL — Android App Downloads
 
-Latest APK releases for the SoulBTL user app (Android).
+Two SoulBTL Android apps are available — pick either (same account, same data):
 
-## Download latest
+## 📱 SoulBTL (WebView app)
+Lightweight WebView wrapper of the web app.
 
-**➡️ [SoulBTL-v1.5.8.apk](SoulBTL-v1.5.8.apk)** (versionCode 23 — latest)
+**➡️ [SoulBTL-v1.5.9.apk](SoulBTL-v1.5.9.apk)** (versionCode 24 — latest)
+
+## ⚡ SoulBTL Native (pure native, zero WebView)
+Fully native Android app — direct Supabase connection, fast offline-friendly shell, built-in reminders & PDF export.
+
+**➡️ [SoulBTL-Native-v2.1.0-native.apk](SoulBTL-Native-v2.1.0-native.apk)** (versionCode 2 — latest)
 
 ## Install
 
@@ -13,16 +19,15 @@ Latest APK releases for the SoulBTL user app (Android).
 3. Open the APK → Install → open SoulBTL
 
 Updates install directly over older versions (same signing key) — data is safe.
+Both apps can be installed side-by-side (different package names).
 
 ## Recent changes
 
-- **1.5.8** — ⚡ instant boot: app opens straight into your dashboard (cached), background refresh; refresh button removed (cache still auto-cleared on logout + every 12h)
-- **1.5.6** — cache hygiene groundwork (admin subscriptions, golden Lifetime card)
-- **1.5.5** — 👑 Golden Lifetime card on pricing, admin-assigned plans
-- **1.5.4** — Admin: user subscriptions, plan assign (incl. lifetime), hide/show plans, user data download
-- **1.5.3** — "Continue as" recent-account chips on login screen
-- **1.5.2** — Math captcha on registration, duplicate-email pre-check, stale-cache recovery
+### SoulBTL Native (2.1.0-native)
+- **2.1.0** — 📄📊 download customers as **PDF or Excel** (single card or full table); 📝 **notes thread** (add/done/delete + reminder date); 💬 WhatsApp send auto-logs history; 🎛️ area/business/birthday-month/anniversary-month filters; 🔔 daily 9 AM local reminders (AlarmManager, reboot-safe)
+- **2.0.0** — first native release: login/signup/OTP, customers, reminders, alerts, plan, WhatsApp quick-send, CSV export, instant-boot cache
 
-## Older releases
-
-- [SoulBTL-v1.5.3.apk](SoulBTL-v1.5.3.apk) · [SoulBTL-v1.5.2.apk](SoulBTL-v1.5.2.apk)
+### SoulBTL (WebView)
+- **1.5.9** — ⚡ one-tap WhatsApp quick-send from birthdays/anniversaries (opens WhatsApp directly, no browser hop; hold = edit message)
+- **1.5.8** — instant boot (cached shell), cache hygiene on logout + every 12h
+- **1.5.6** — admin subscriptions, golden Lifetime card
